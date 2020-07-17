@@ -32,7 +32,7 @@ foreach($batteries as $bat)
 
     $productId = $bat['id'];
     print "Retrieving " . $productId . "\n";
-    $html = scraperWiki::scrape("http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=$productId");
+    $html = scraperWiki::scrape("https://www.amazon.it/");
     //print $html . "\n";
     
     $dom = new simple_html_dom(); 
